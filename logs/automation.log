@@ -1,0 +1,14 @@
+2025-01-11 18:21:42.030 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+2025-01-11 18:21:47.471 [main] INFO  testBase.Base - **********Starting Resgistration Test***********
+2025-01-11 18:21:47.665 [main] INFO  testBase.Base - **********Clicked on My account***********
+2025-01-11 18:21:48.203 [main] INFO  testBase.Base - **********Clicked on Registration***********
+2025-01-11 18:21:49.811 [main] INFO  testBase.Base - **********Submitted registration***********
+2025-01-11 18:23:43.964 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+2025-01-11 18:23:49.043 [main] INFO  testBase.Base - **********Starting Resgistration Test***********
+2025-01-11 18:23:49.316 [main] INFO  testBase.Base - Clicked on My account
+2025-01-11 18:23:49.911 [main] INFO  testBase.Base - Clicked on Registration
+2025-01-11 18:23:51.299 [main] INFO  testBase.Base - Submitted registration
