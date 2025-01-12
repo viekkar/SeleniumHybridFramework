@@ -5,22 +5,37 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.*;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 
 public class Base {
     public WebDriver driver;
     public Logger logger;
+    public Properties properties;
     @BeforeClass
-    public void setup(){
+    @Parameters({"Browser"})
+    public void setup(String browserName) throws IOException {
+        properties=new Properties();
+        FileInputStream fileInputStream=new FileInputStream("./src/test/resources/data.properties");
+        properties.load(fileInputStream);
         logger= LogManager.getLogger();
-        driver= new ChromeDriver();
+        switch (browserName.toLowerCase())
+        {
+            case"chrome":driver=new ChromeDriver(); break;
+            case"edge":driver=new EdgeDriver();break;
+            default:
+                System.out.println("browser not exist");
+                return;
+        }
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.get("https://tutorialsninja.com/demo/index.php");
+        driver.get(properties.getProperty("baseUrl"));
         driver.manage().window().maximize();
 
     }

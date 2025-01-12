@@ -3,11 +3,8 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BaseComponents{
-
-    WebDriver driver;
 
     //create constructor
     public HomePage(WebDriver driver) {
@@ -19,8 +16,11 @@ public class HomePage extends BaseComponents{
     @FindBy(xpath = "//span[normalize-space()='My Account']")
     WebElement myAccount;
 
-    @FindBy(xpath = "//a[normalize-space()='Register']")
+    @FindBy(xpath = "//a[text()='Register']")
     WebElement register;
+
+    @FindBy(xpath = "//a[text()='Login']")
+    WebElement login;
 
     //action methods
 
@@ -30,5 +30,9 @@ public class HomePage extends BaseComponents{
 
     public void clickRegister(){
         register.click();
+    }
+
+    public void clickLogin() {
+        login.click();
     }
 }

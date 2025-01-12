@@ -1,14 +1,44 @@
-2025-01-11 18:21:42.030 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+2025-01-12 12:24:58.157 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.173 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.174 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.174 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.175 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.175 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.178 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.178 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.178 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.178 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.178 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.178 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.179 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.179 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.179 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.179 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.180 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.180 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.182 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.183 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.183 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.183 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.183 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.184 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.188 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2025-01-12 12:24:58.189 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.189 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.201 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-12 12:24:58.201 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-12 12:24:58.204 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Projects\SeleniumHybridFramework\master.xml
 
-2025-01-11 18:21:47.471 [main] INFO  testBase.Base - **********Starting Resgistration Test***********
-2025-01-11 18:21:47.665 [main] INFO  testBase.Base - **********Clicked on My account***********
-2025-01-11 18:21:48.203 [main] INFO  testBase.Base - **********Clicked on Registration***********
-2025-01-11 18:21:49.811 [main] INFO  testBase.Base - **********Submitted registration***********
-2025-01-11 18:23:43.964 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
-
-2025-01-11 18:23:49.043 [main] INFO  testBase.Base - **********Starting Resgistration Test***********
-2025-01-11 18:23:49.316 [main] INFO  testBase.Base - Clicked on My account
-2025-01-11 18:23:49.911 [main] INFO  testBase.Base - Clicked on Registration
-2025-01-11 18:23:51.299 [main] INFO  testBase.Base - Submitted registration
+2025-01-12 12:24:58.218 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2025-01-12 12:25:15.025 [main] INFO  testBase.Base - Clicked on My account
+2025-01-12 12:25:15.589 [main] INFO  testBase.Base - Clicked on Registration
+2025-01-12 12:25:16.891 [main] INFO  testBase.Base - Submitted registration
+2025-01-12 12:25:18.261 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@14bf57b2: 0 ms
